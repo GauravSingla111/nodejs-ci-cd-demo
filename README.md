@@ -20,3 +20,8 @@ This project demonstrates a **CI/CD pipeline** using GitHub Actions.
 ```bash
 npm install
 npm start
+
+## How to Run with Docker
+docker build -t nodejs-ci-cd-demo .
+docker run -p 3000:3000 nodejs-ci-cd-demo
+
